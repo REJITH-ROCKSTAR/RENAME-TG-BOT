@@ -72,8 +72,8 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                InlineKeyboardButton('Creator', url='https://t.me/Monisha1996'),
-                InlineKeyboardButton('Source', url='https://gplinks.co/H8uNeM')
+                InlineKeyboardButton('Creator', url='https://t.me/Clinton_Abraham'),
+                InlineKeyboardButton('Source', url='https://github.com/Clinton-Abraham/RENAME-TG-BOT')
                 ],
                 [
                 InlineKeyboardButton('Cʟɪɴᴛᴏɴ ✗ Bᴏᴛᴢ', url='https://t.me/clinton_x_botz')

@@ -1,6 +1,6 @@
 class Translation(object):
     START_TEXT = """Please send me a telegram file and reply to an file with /rename Name.Extension\n
-    Do /help for more"""
+Do /help for more"""
 
     RENAME_403_ERR = "<b>Rᴇɴᴀᴍᴇ Eʀʀᴏʀ Tʀʏ Aɢᴀɪɴ 🤯</b>"
     BANNED_USER_TEXT = "<b>Yᴏᴜ Cᴀɴ'ᴛ Rᴜɴ Mᴇ Nᴏᴡ!</b>" 

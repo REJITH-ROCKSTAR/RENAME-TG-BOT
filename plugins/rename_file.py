@@ -43,6 +43,7 @@ async def rename_doc(bot, update):
     if (" " in update.text) and (update.reply_to_message is not None):
         cmd, file_name = update.text.split(" ", 1)
         new_file = file_name[:60] + file_name[-4:]
+        format_ext = formats.get("ext")
         description = Translation.CUSTOM_CAPTION_UL_FILE
         download_location = Config.DOWNLOAD_LOCATION + "/"
         a = await bot.send_message(
@@ -71,8 +72,8 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
-            new_file_name = download_location + new_file + file_extension
-            os.rename(the_real_download_location, new_file_name + file_extension)
+            new_file_name = download_location + new_file + format_ext
+            os.rename(the_real_download_location, new_file_name + format_ext)
             await bot.edit_message_text(
                 text=Translation.UPLOAD_START,
                 chat_id=update.chat.id,

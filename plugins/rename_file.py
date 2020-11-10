@@ -142,8 +142,8 @@ async def rename_doc(bot, update):
                 )
             except:
                 pass
-            new_file_name = download_location + file_name
-            os.rename(the_real_download_location, new_file_name)
+            new_file_name = download_location + file_name + format_ext
+            os.rename(the_real_download_location, new_file_name, format_ext)
             await bot.edit_message_text(
                 text=Translation.UPLOAD_START,
                 chat_id=update.chat.id,

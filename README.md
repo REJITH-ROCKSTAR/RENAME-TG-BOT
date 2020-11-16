@@ -1,6 +1,6 @@
-# RENAME-TG-BOT
+# Sᴘᴀᴄᴇ ✗ Bᴏᴛᴢ
 
-## FEATURES
+### FEATURES
 * Rename Telegram Files /rename
 * Convert Files To Video /c2v
 * Permanent Thumbnail Support
